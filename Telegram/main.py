@@ -7,7 +7,7 @@ CHAT_ID = "SEU_CHAT_ID"
 bot = telebot.TeleBot(API_TOKEN)
 
 bot.send_message(
-    CHAT_ID, text="O bot está em execução, digite /start para chamar"
+    CHAT_ID, text="O bot está em execução"
 )
 
 
